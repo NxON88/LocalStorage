@@ -1,0 +1,120 @@
+html {
+   
+    overflow-y: hidden;
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: 'Amatic SC', cursive;
+    padding-top: 20px;
+}
+ 
+.container {
+    width:406px;
+    max-width:406px;
+    margin:0 auto;
+}
+.mail {
+  font-family: 'Amatic SC', cursive;
+  background: #f5f5f5;
+    font-size: 1.2rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 10px;
+    width: 330px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+    clear: both;
+}
+
+.pass {
+  font-family: 'Amatic SC', cursive;
+  background: #f5f5f5;
+    font-size: 1.2rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 10px;
+    width: 330px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+    clear: both;
+}
+#signup {
+    padding: 0px 25px 25px;
+    background: #fff;
+    box-shadow: 0px 0px 0px 5px rgba( 255,255,255,0.4 ), 0px 4px 20px rgba( 0,0,0,0.33 );
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: table;
+    position: static;
+}
+#signup .header h1 {
+  text-align: center;
+    color: #333333;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+ #submit {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    background: -ms-linear-gradient (top, #b9c5dd, #a4b0cb);
+    background: -moz-linear-gradient(top, #b9c5dd 0%, #a4b0cb);       
+    background: -webkit-gradient(linear, left top, left bottom,from(#b9c5dd),to(#a4b0cb));        
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #737b8d;
+    -ms-box-shadow:0px 5px 5px rgba(000,000,000,0.1),inset 0px 1px 0px rgba(255,255,255,0.5);;
+    -moz-box-shadow:0px 5px 5px rgba(000,000,000,0.1),inset 0px 1px 0px rgba(255,255,255,0.5);
+    -webkit-box-shadow:0px 5px 5px rgba(000,000,000,0.1),inset 0px 1px 0px rgba(255,255,255,0.5);
+    box-shadow:0px 5px 5px rgba(000,000,000,0.1),inset 0px 1px 0px rgba(255,255,255,0.5);
+    text-shadow: 0px 1px 3px rgba(000,000,000,0.3),0px 0px 0px rgba(255,255,255,0);
+    display: table;
+    position: static;
+    clear: both;
+}
+ #submit:hover {
+    background: -ms-linear-gradient (top, #b9c5dd, #a4b0cb);
+    background: -moz-linear-gradient(top,#a4b0cb 0%, #b9c5dd);      
+    background: -webkit-gradient(linear, left top, left bottom,from(#a4b0cb),to(#b9c5dd));
+}
+.button {
+    margin: 20px;
+    text-align: center;
+    height: 200px;
+    padding: 50px;
+}
+.fon {
+    outline: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 auto; 
+    background: radial-gradient(farthest-side ellipse at top left, white, #aaaaaa);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -15px 20px rgba(255,255,255,0.5);
+}
+
+body.s1 {
+    background: radial-gradient(circle farthest-corner at 100px 50px,#ADD8E6, #87CEEB,#4682B4,#4169E0) no-repeat;
+
+}
+
+body.s2 {
+    background: radial-gradient(at top, #FFD700, #EEE8AA,#FFFACD,#FFEBCD, #87CEFA) no-repeat;
+}
